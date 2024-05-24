@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+}
+
+body.has-background {
+    background-image: url('/static/css/images/background.jpg');
+    background-size: 65% 65%;
+    background-position: center 76%;
+    background-repeat: no-repeat;
+    background-color: #333;
+}
+body.has-background-color {
+    background-color: #333;
+}
+
+h1 {
+    color: #c0c0c0;
+}
+p {
+    color: #c0c0c0
+}
+/* Estilo para os links que funcionam como botões */
+a.button {
+    background-color: #4CAF50; /* Verde */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 20px; /* Espaçamento entre os botões */
+    cursor: pointer;
+}
+
+a.button:hover {
+    background-color: #45a049;
+}
+
+/* Adiciona bordas ao redor de cada contato */
+.contact {
+    border: 2px solid #c0c0c0;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Cria uma grade para organizar os contatos */
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas com largura igual */
+    grid-gap: 20px; /* Espaçamento entre os contatos */
+    justify-content: center; /* Centraliza a grade horizontalmente */
+}

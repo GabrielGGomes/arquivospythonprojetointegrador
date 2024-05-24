@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Página Inicial{% endblock %}
+
+{% block body_class %}has-background{% endblock %}
+
+{% block content %}
+<h1>CONTRABANDO DE ESPÉCIES SILVESTRES</h1>
+<p>Ameaça à Biodiversidade Paranaense.</p>
+<a href="{{ url_for('contatos') }}" class="button">Contatos</a>
+<a href="{{ url_for('sobre') }}" class="button">Sobre</a>
+<a href="{{ url_for('projeto') }}" class="button">Projeto</a>
+{% endblock %}
